@@ -7,13 +7,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 # --------------------------------------------
 # Konfiguration
 # --------------------------------------------
-BGA_URL = "https://boardgamearena.com/#!gamepanel?game=lostcities"  # Spiel-URL
+# BGA_URL = "https://boardgamearena.com/#!gamepanel?game=lostcities"  # Spiel-URL
+BGA_URL = "https://boardgamearena.com/lobby"
 OUTPUT_JSON = "bga_dommap.json"
 OUTPUT_CSV = "bga_dommap.csv"
 
 # Dein Chrome-Profil-Pfad (Windows Beispiel: r"C:\Users\<NAME>\AppData\Local\Google\Chrome\User Data")
 # Wichtig: Dort bist du schon bei BGA eingeloggt
-USER_DATA_DIR = r"C:\Users\<NAME>\AppData\Local\Google\Chrome\User Data"
+USER_DATA_DIR = r"C:\Users\Danko\AppData\Local\Google\Chrome\User Data"
 PROFILE_DIR = "Default"  # oder "Profile 1" etc.
 
 # --------------------------------------------
